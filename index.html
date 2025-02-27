@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>자기소개 위키 페이지</title>
+    <style>
+      .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(3, 1fr);
+          max-width: 60%;
+          margin: auto;
+      }
+
+      .grid-container img {
+          width: 100%; 
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+      }
+  </style>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js"></script>
   </head>
@@ -16,39 +31,101 @@
         </h1>
       </header>
       <main>
-        <h2 class="title">크론</h2>
+        <h2 class="title">비타</h2>
         <hr />
-        <section>
+        <section id="introduction">
           <h3 class="subtitle">자기소개</h3>
           <p>
-            안녕하세요, 저는 끊임없이 새로운 도전을 통해 성장하는 것을 즐기는 크론이에요. 안정적인 삶에서 벗어나 세 번의
-            큰 전환점을 겪으며 지금의 제가 되었어요. 어제보다 더 나은 오늘의 나를 만들기 위해 노력하고 있죠. 매일의 작은
-            성취들이 모여 제가 한 걸음 더 성장했다는 것을 느낄 때면 가슴이 벅차오르거든요. 그러다 문득, 저처럼 변화를
-            갈망하며 도전을 꿈꾸는 분들이 많다는 것을 알게 되었어요. 나의 성장도 의미 있지만, 누군가의 성장을 함께할 수
-            있다는 건 매일 새로운 설렘을 주는 일이에요.
+            안녕하세요! 우아한테크코스 7기 BE 비타입니다.<br>
+            항상 긍정적인 마인드를 유지하며, 웃음이 넘치는 사람이 되기를 목표로 하고 있습니다. <br>
+            사람들과 소통하고 이야기를 나누는 것을 즐기며, 함께하는 시간을 소중히 여깁니다.<br>
+            새로운 것을 배우고 도전하는 과정에서 큰 즐거움을 느끼며, 지속적인 성장을 추구합니다. <br><br>
+            
+            이번 우아한테크코스를 통해 한층 더 발전하고, 많은 것을 배울 수 있기를 기대하고 있습니다.<br>
+            특기로는 코딩과 게임을 좋아하며, 번외로는 좋은 사람들과 함께하는 술자리를 즐깁니다.
           </p>
         </section>
 
-        <section>
-          <h3 class="subtitle">나를 울린 인생 작품</h3>
+        <section id="gallery">
+          <h3 class="subtitle">📸 갤러리</h3>
           <article>
-            <h4>인생 영화</h4>
+            <div class="gallery">
+              <div class="grid-container">
+                <img src="./images/image_1.JPG" alt="Image 1">
+                <img src="./images/image_2.JPG" alt="Image 2">
+                <img src="./images/image_3.jpg" alt="Image 3">
+                <img src="./images/image_4.jpg" alt="Image 4">
+                <img src="./images/image_5.JPG" alt="Image 5">
+                <img src="./images/image_6.JPG" alt="Image 6">
+                <img src="./images/image_7.JPG" alt="Image 7">
+                <img src="./images/image_8.JPG" alt="Image 8">
+                <img src="./images/image_9.JPG" alt="Image 9">                
+            </div>
+            </div>
+          </article>
+        </section>
+
+        <section id="car">
+          <h3 class="subtitle">인생의 첫 차, 노력의 결과물</h3>
+          <article>
+            <h4>노력의 결과</h4>
             <div class="thumbnail">
               <img
-                src="https://image.tmdb.org/t/p/w1280/u8ffl7CRAS12KA8eQEtkLuHg8Fm.jpg"
-                width="200"
-                alt="그래비티 영화 포스터"
+                src="./images//image_4.jpg"
+                width="300"
+                alt="자동차"
               />
             </div>
             <p>
-              알폰소 쿠아론 감독이 연출하고 샌드라 불럭이 주연으로 출연하는 영화 「그래비티」는 우주 정거장에서 임무
-              수행 중 고립된 한 우주인의 생존과 귀환을 그린 작품이다. 대학생 시절 처음 본 이 영화는 당시엔 그저 지루한
-              우주 영화였다. 그런데 이 영화를 다시 보니, 마치 내 미래를 미리 보여준 복선과도 같다는 점을 깨달았다.
+              인생의 첫 차를 구매했습니다.<br>
+              이 차는 저에게 가장 소중하고 아끼는 물건 중 하나입니다. <br> <br>
+              
+              군대 시절 악착같이 절약하며 모은 돈과 4년 동안 상하차, 계곡 백숙집, 고깃집, 스크린 골프장에서 일하며 학업과 병행해 모은 돈으로 마련한 차입니다. 그렇게 어렵게 손에 넣은 차였기에, 구매 순간의 설렘도 컸지만, 무엇보다 그 후로 쌓인 추억들이 더욱 소중하게 느껴졌습니다. <br> <br>
+              
+              이 차로 혼자 여행도 다녔고, 친구들과도, 사랑하는 사람과도 수많은 길을 달렸습니다. <br>
+              첫 차 덕분에 더 많은 순간을 기록할 수 있었고, 그래서 저에게 단순한 이동수단이 아니라, 특별한 존재가 되었습니다.
             </p>
           </article>
         </section>
 
-        <section>
+        <section id="achievement">
+          <h3 class="subtitle">대학교 동안 이룬 가장 큰 업적</h3>
+          <article>
+            <h4>뿌듯한 대학 생활</h4>
+            <div class="thumbnail">
+              <img
+                src="./images//image_5.jpg"
+                width="300"
+                alt="학회 사진1"
+              />
+              <img
+                src="./images//image_6.jpg"
+                width="300"
+                alt="학회 사진2"
+              />
+              <img
+                src="./images//image_7.jpg"
+                width="300"
+                alt="학회 사진3"
+              />
+            </div>
+            <p>
+              대학교 생활 동안 학회 활동을 통해 다양한 경험을 했습니다. <br>
+              학회에서는 학교 축제와 여러 행사를 준비해야 했고, 항상 최선을 다해야 했습니다. <br>
+              처음 해보는 일도 많아 어려움이 있었지만, 그만큼 성취감은 짜릿했습니다. <br> <br>
+              
+              그중에서도 가장 흥미롭고 색다른 경험은 MC를 맡았던 순간이었습니다.<br> 
+              태어나서 무대 위에서 마이크를 잡을 기회가 있을 거라고는 상상도 못했지만, 학회 활동 덕분에 뜻밖의 도전을 할 수 있었습니다. <br> <br>
+              
+              또한, 축제 웹사이트를 직접 제작했던 경험도 인상 깊었습니다. <br>
+              실제 사용자들의 유입을 경험하고, 학우들이 편리하게 이용했다는 이야기를 들었을 때의 뿌듯함은 이루 말할 수 없었습니다.<br> <br>
+              
+              이러한 경험들이 결국 개발자를 꿈꾸게 한 계기가 되지 않았나 싶습니다.
+            </p>
+          </article>
+        </section>
+
+        <section id="comment">
           <div class="comment-writing-container">
             <form>
               <fieldset>
@@ -56,50 +133,14 @@
                 <textarea
                   placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
                 ></textarea>
+                <div class="button-group">
+                  <button type="button">등록</button>
+                  <button type="reset">취소</button>
+                </div>
               </fieldset>
             </form>
           </div>
           <ul class="comment-list">
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  대학생 때 읽었던 모모가 문득 생각나서 다시 펼쳐봤는데, 글쓴이님 말씀처럼 정말 지금 보니까 완전 다르게
-                  다가오더라구요! 회색 신사들이 들려주는 '시간 절약'이란 말이 마치 요즘 유튜브에서 흔히 보이는 '갓생
-                  살기' 영상들 같아서 씁쓸하게 웃었습니다 ㅎㅎ 광안리 해변 이야기는 정말 이 글의 하이라이트인 것 같아요.
-                  저도 이제는 가끔은 멍때리는 시간을 가져야겠어요 :&#41;
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  와... 크론이라는 닉네임의 의미를 읽고 푸지 이발사가 딱 떠올랐어요. 저도 회사에서 30분 단위로 시간
-                  쪼개서 일정 관리하다가 얼마 전에 번아웃 왔거든요 😅 시간을 아낀다고 오히려 삶을 놓치고 있었던 것
-                  같아서 마음이 찡했습니다. 글쓴이님 글 덕분에 오늘은 퇴근하고 동네 한 바퀴 돌아야겠어요~
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  이 글 읽으면서 계속 고개를 끄덕였네요 👍 특히 자기계발서 이야기... 저도 요즘 '갓생살기' 영상 보면서
-                  조급해졌었는데, 모모 다시 읽어봐야겠어요! 시간은 아끼는 게 아니라 느끼는 거라는 말에 완전 공감입니다.
-                  저도 이제는 하루에 한 번은 커피 마시면서 창밖 구경하기로 했어요 ☕️
-                </div>
-              </div>
-            </li>
           </ul>
         </section>
 
@@ -109,21 +150,24 @@
         </footer>
       </main>
       <aside class="right-sidebar">
-        <div class="profile-image">크론 프로필 이미지</div>
+        <div class="profile-image">비타 프로필 이미지</div>
         <nav>
           <h2>Contents</h2>
           <ol class="contents">
             <li>
-              <a href="#">자기소개</a>
+              <a href="#introduction">자기소개</a>
             </li>
             <li>
-              <a href="#">나만의 갤러리</a>
+              <a href="#gallery">📸 갤러리</a>
             </li>
             <li>
-              <a href="#">나를 울린 인생 작품</a>
+              <a href="#car">인생의 첫 차, 노력의 결과물</a>
             </li>
             <li>
-              <a href="#">감상평</a>
+              <a href="#achievement">대학교 동안 이룬 가장 큰 업적</a>
+            </li>
+            <li>
+              <a href="#comment">감상평</a>
             </li>
           </ol>
         </nav>
